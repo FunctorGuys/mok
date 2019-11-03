@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://nir123:mhfc1913@mokconnector-x9hjb.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mySecretToken",
+  "linkSecret": "vimeo_mok_123456789"
+}

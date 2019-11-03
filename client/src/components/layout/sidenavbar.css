@@ -1,0 +1,147 @@
+.side-nav {
+  width: 400px;
+  max-width: calc(100vw - 20px);
+  position: fixed;
+  z-index: 10;
+  top: 180px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 180px);
+  background-color: white;
+  padding: 0px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  right: -400px;
+
+  /* opacity: 0.9; */
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+  transition: 0.5s;
+}
+.side-menu-toggle {
+  position: fixed;
+  top: 180px;
+  right: 0px;
+  text-decoration: none;
+  color: white;
+  background-color: white;
+  padding: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.sidenav-inner {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.dropdown-btn,
+.accordion {
+  padding: 18px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #444;
+  display: block;
+  border: none;
+  background-color: #7bd973;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: right;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\2212';
+}
+
+.item-left {
+  float: left;
+}
+
+.item-right {
+  clear: both;
+  direction: rtl;
+  display: inline;
+}
+
+.side-nav a:hover {
+  color: #7bd973;
+}
+
+.active {
+  background-color: #7bd973;
+}
+
+.dropdown-container {
+  display: none;
+
+  padding-right: 10px;
+}
+
+.fa-caret-down {
+  float: left;
+  padding-left: 10px;
+}
+
+.side-nav .btn-close {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  color: grey !important ;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.nav {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: inherit;
+}
+.nav li {
+  display: inline-block;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  direction: initial;
+}
+
+.nav-flex .nav_play {
+  padding: 5px;
+}
+
+.link {
+  width: 100%;
+}
+
+.button_dropdown {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #444;
+  display: block;
+  border: none;
+  background-color: #7bd973;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: right;
+}
+
+.hoverable {
+  background-color: #7bd973;
+  color: #444;
+}
+.hoverable:hover {
+  color: white;
+}

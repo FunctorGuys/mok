@@ -1,0 +1,45 @@
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const UPDATE_COURSE = 'UPDATE_COURSE';
+export const ADMIN_LOADED = 'ADMIN_LOADED';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+export const ADD_COURSE = 'ADD_COURSE';
+export const COURSE_FAIL = 'COURSE_FAIL';
+export const GET_COURSES = 'GET_COURSES';
+export const COURSE_ERROR = 'COURSE_ERROR';
+export const ADD_SHOW = 'ADD_SHOW';
+export const SHOW_FAIL = 'SHOW_FAIL';
+export const ADD_LINK = 'ADD_LINK';
+export const LINK_ERROR = 'LINK_ERROR';
+export const GET_COURSE = 'GET_COURSE';
+export const GET_LINK = 'GET_LINK';
+export const ADD_PAYMENT = 'ADD_PAYMENT';
+export const ADD_PAYMENTDB = 'ADD_PAYMENTDB';
+export const PAYMENT_ERROR = 'PAYMENT_ERROR';
+export const RECOVERY_FAIL = 'RECOVERY_FAIL';
+export const RECOVERY_SUCCESS = 'RECOVERY_SUCCESS';
+export const NEWPASS_ERROR = 'NEWPASS_ERROR';
+export const UPDATE_PASSWORD = 'UPDATE_PASSWORD';
+export const CONTACT_SUCCESS = 'CONTACT_SUCCESS';
+export const CONTACT_FAIL = 'CONTACT_FAIL';
+export const GET_PAYMENT = 'GET_PAYMENT';
+export const GET_SHOWCASE = 'GET_SHOWCASE';
+export const SHOWCASE_ERROR = 'SHOWCASE_ERROR';
+export const GET_SHOWA = 'GET_SHOWA';
+export const UPDATE_SHOW = 'UPDATE_SHOW';
+export const UPDATE_FAIL = 'UPDATE_FAIL';
+
+export const DELETE_COURSE = 'DELETE_COURSE';
+
+export const GET_COURSEC = 'GET_COURSEC';
+export const GET_COURSED = 'GET_COURSED';
+
+export const CONFIRM_EMAIL = 'CONFIRM_EMAIL';
+export const EMAIL_ERROR = 'EMAIL_ERROR';
+export const GET_COURSE_SPECIFIC = 'GET_COURSE_SPECIFIC';
